@@ -1,0 +1,31 @@
+{
+  "name": "goo-goo_book-search",
+  "version": "1.0.0",
+  "description": "Google book search",
+  "main": "server.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "seed": "node scripts/seedDB.js",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabloivanjuarez/goo-goo_book-search.git"
+  },
+  "author": "Pablo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pabloivanjuarez/goo-goo_book-search/issues"
+  },
+  "homepage": "https://github.com/pabloivanjuarez/goo-goo_book-search#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "if-env": "^1.0.4",
+    "nodemon": "^2.0.6"
+  }
+}
