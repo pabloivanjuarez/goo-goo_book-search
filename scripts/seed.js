@@ -14,3 +14,15 @@ const bSeed = [{
   link: 'http://books.google.com/books?id=cHpM9jx9roIC&printsec=frontcover&dq=in+god+we+trust+all+others+pay+cash&hl=&cd=1&source=gbs_api'
 
 }]
+
+db.Book
+  .remove({})
+  .then(() => db.Book.collection.insertMany(bSeed))
+  .then(data => {
+    console.log(data.result.n + "saved✔");
+    process.exit(0);
+  })
+  .catch(err => {
+    console.error(err);
+    process.exit(1);
+  });
