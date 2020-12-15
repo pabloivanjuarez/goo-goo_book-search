@@ -8,7 +8,19 @@ import SavedList from './components/SavedList';
 function App() {
   return (
     <Router>
-      );
-      }
+      <div>
+        <Navbar />
+        <Switch>
+          <Route exact path='/'>
+            <SearchBox />
+          </Route>
+          <Route exact path='/saved'>
+            <SavedList />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
+  );
+}
 
-      export default App;
+export default App;
