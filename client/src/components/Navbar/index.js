@@ -3,9 +3,8 @@ import './styles.modules.css'
 
 function Navbar() {
   return (
-    <div>
-
-    </div>
+    <nav className='navbar navbar-default-lg'>
+    </nav>
   )
 }
 
