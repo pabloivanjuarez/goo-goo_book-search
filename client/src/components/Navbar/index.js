@@ -1,4 +1,5 @@
 import React from 'react'
+import './styles.modules.css'
 
 function Navbar() {
   return (
@@ -8,4 +9,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar;
