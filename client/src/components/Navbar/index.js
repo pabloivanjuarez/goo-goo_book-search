@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles.modules.css'
+import 'style.module.css';
 
 function Navbar() {
   return (
@@ -7,11 +7,11 @@ function Navbar() {
       <div>
         <ul className='navbar-nav'>
           <li className='nav-item'>
-            <a className='nav-link' href='/'>Search<img className='nav-icon' src={ }></img>
+            <a className='nav-link' href='/'>Search<img className='nav-icon' src='{ }'></img>
             </a>
           </li>
           <li className='nav-item'>
-            <a className='nav-link' href='/'>Search<img className='nav-icon' src={ }></img>
+            <a className='nav-link' href='/'>Search<img className='nav-icon' src='{ }'></img>
             </a>
           </li>
         </ul>
