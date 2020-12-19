@@ -1,8 +1,9 @@
 const mongoose = require('mongoose');
-const db = require('../backend/models');
+const db = require('../models/');
 
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongod://localhost/googoobooksearch'
+  // process.env.MONGODB_URI || 'mongod://localhost/'
+  'mongodb+srv://pablito:leboss321@cluster0.6ncvr.mongodb.net/book?retryWrites=true&w=majority'
 );
 
 const bSeed = [{
@@ -15,9 +16,9 @@ const bSeed = [{
 
 }]
 
-db.Book
+db.book
   .remove({})
-  .then(() => db.Book.collection.insertMany(bSeed))
+  .then(() => db.book.collection.insertMany(bSeed))
   .then(data => {
     console.log(data.result.n + "saved✔");
     process.exit(0);
