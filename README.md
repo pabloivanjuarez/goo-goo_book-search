@@ -1,9 +1,9 @@
 
   # Google Book Search
   ![License Badge](https://img.shields.io/badge/License-MIT-blue) 
-  ![js Badge](https://img.shields.io/badge/JavaScript-76.5%25-green)
-  ![HTML Badge](https://img.shields.io/badge/HTML-14.5%25-green)
-  ![CSS Badge](https://img.shields.io/badge/CSS-9%25-green)
+  ![js Badge](https://img.shields.io/badge/JavaScript-76.5%25-yellow)
+  ![HTML Badge](https://img.shields.io/badge/HTML-14.5%25-red)
+  ![CSS Badge](https://img.shields.io/badge/CSS-9%25-purple)
   
   ## Description
 
