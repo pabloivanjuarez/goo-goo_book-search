@@ -1,0 +1,31 @@
+.container {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-rows {
+    display: flex;
+}
+
+.thumbnail {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    width: 0;
+    object-fit: cover;
+}
+
+.right {
+    background-color: white;
+}
+
+.btn-danger {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.delete-icon {
+    padding-bottom: 2px;
+    color: white;
+    height: 20px;
+}

@@ -1,0 +1,9 @@
+.jumbotron {
+    background-image: url('../../assets/img/study.jpg');
+    background-size: contain;
+    color: white;
+}
+
+.container h1 {
+    font-family: 'Jost', sans-serif;
+}

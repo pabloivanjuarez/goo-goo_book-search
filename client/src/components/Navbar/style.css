@@ -1,0 +1,12 @@
+.navbar-brand, .nav-link {
+    color: black !important;
+}
+
+.nav-item {
+    padding-top: 5px;
+}
+
+.nav-icon {
+    padding-bottom: 3px;
+    height: 20px;;
+}

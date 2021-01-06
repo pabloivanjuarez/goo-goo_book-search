@@ -1,24 +1,24 @@
-import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import SearchBox from './components/SearchBox';
-import SavedList from './components/SavedList';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Search from "./pages/Search";
+import Saved from "./pages/Saved";
+import './App.css';
 
 function App() {
   return (
     <Router>
-      <div>
-        <Navbar />
-        <Switch>
-          <Route exact path='/'>
-            <SearchBox />
-          </Route>
-          <Route exact path='/saved'>
-            <SavedList />
-          </Route>
-        </Switch>
-      </div>
+    <div>
+    <Navbar />
+    <Switch>
+        <Route exact path="/">
+          <Search />
+        </Route>
+        <Route exact path="/saved">
+          <Saved />
+        </Route>
+      </Switch>
+    </div>
     </Router>
   );
 }
