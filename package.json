@@ -20,7 +20,12 @@
     "nodemon": "^1.18.7"
   },
   "dependencies": {
+<<<<<<< HEAD
     "express": "^4.16.3",
+=======
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+>>>>>>> 1d1732cff4ad65f882725549d383796c03e89f69
     "if-env": "^1.0.4",
     "mongoose": "^5.9.6"
   }

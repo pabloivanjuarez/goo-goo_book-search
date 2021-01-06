@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import "./style.css";
 
@@ -18,5 +19,30 @@ function Navbar() {
         </nav>
     )
 };
+=======
+import React from 'react';
+import classes from './style.module.css';
+import './style.module.css';
+const liClasses = `nav-link ${classes.thisClass}`;
+
+function Navbar() {
+  return (
+    <nav className='navbar navbar-default-lg'>
+      <div>
+        <ul className='navbar-nav'>
+          <li className='nav-link'>
+            <a className={liClasses} href='/'>Search<img className='nav-icon' src='{ }'></img>
+            </a>
+          </li>
+          <li className='nav-item'>
+            <a className='nav-link' href='/'>Search<img className='nav-icon' src='{ }'></img>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  )
+}
+>>>>>>> 1d1732cff4ad65f882725549d383796c03e89f69
 
 export default Navbar;

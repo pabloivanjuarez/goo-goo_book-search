@@ -15,7 +15,12 @@ if (process.env.NODE_ENV === "production") {
 // Define API routes here
 app.use(routes);
 
+<<<<<<< HEAD
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebooks", { useNewUrlParser: true });
+=======
+// mongoose.connect(process.env.MONGODB_URI || 'mongod://localhost/', { useNewUrlParser: true });
+'mongodb+srv://pablito:leboss321@cluster0.6ncvr.mongodb.net/book?retryWrites=true&w=majority'
+>>>>>>> 1d1732cff4ad65f882725549d383796c03e89f69
 
 app.listen(PORT, () => {
   console.log(`🌎 ==> API server now on port ${PORT}!`);
