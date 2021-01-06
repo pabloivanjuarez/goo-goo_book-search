@@ -1,6 +1,6 @@
 .jumbotron {
-    background-image: url('../../assets/img/study.jpg');
-    background-size: cover;
+    background-image: url('../../assets/img/statues.jpg');
+    background-size: contain;
     color: white;
 }
 
