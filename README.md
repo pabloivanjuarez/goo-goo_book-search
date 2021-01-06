@@ -1,6 +1,9 @@
 
   # Google Book Search
-  ![License Badge](https://img.shields.io/badge/License-MIT-blue) ![Code Badge](https://img.shields.io/badge/JavaScript-100%25-green)
+  ![License Badge](https://img.shields.io/badge/License-MIT-blue) 
+  ![js Badge](https://img.shields.io/badge/JavaScript-76.5%25-green)
+  ![HTML Badge](https://img.shields.io/badge/HTML-14.5%25-green)
+  ![CSS Badge](https://img.shields.io/badge/CSS-9%25-green)
   
   ## Description
 
@@ -13,8 +16,6 @@
   * [Installation](#installastion)
 
   * [Usage](#usage)
-
-  * [Tests](#tests)
 
   * [Contributing](#contributing)
 
@@ -35,17 +36,11 @@
   Space created for your Text
 
 
----  
-  ## Tests
-
-  ### ```npm run test```
-
 
 ---  
   ## Contributing
 
   
-
   
 ---  
   ## Questions
